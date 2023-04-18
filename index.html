@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Seccion del inicio-->
+
+    <span class="sombra">
+
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"> </i>
+                        <h1>Oscar Alvarado</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Hablidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                    <!--Icono del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </header>
+
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Fontend</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet molestiae totam vitae
+                            dicta
+                            voluptates explicabo harum fugiat perspiciatis magnam? Accusantium aliquam cupiditate id
+                            eligendi eum soluta adipisci saepe aspernatur.</p>
+                        <button class="btn btn-1">Descargar CV</button>
+                    </div>
+                    <div class="col">
+                        <dv class="contenedor-img">
+                            <img src="https://asset.kompas.com/crops/7msXzpGEtgtdootwj4Q2cbkx3T8=/0x0:1920x1280/750x500/data/photo/2022/03/28/6241538e6229a.jpg"
+                                alt="">
+                        </dv>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </span>
+
+    <!--Seccion de servicios-->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño de pagina Web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum quae doloribus aperiam
+                        necessitatibus, vel debitis.
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum quae doloribus aperiam
+                        necessitatibus, vel debitis.
+                    </p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                    </div>
+                    <h3>Animaciones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum quae doloribus aperiam
+                        necessitatibus, vel debitis.
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum quae doloribus aperiam
+                        necessitatibus, vel debitis.
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum quae doloribus aperiam
+                        necessitatibus, vel debitis.
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion de habilidades-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="75">
+                                75%
+                            </div>
+                            <h2>JAVASCRIP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="60">
+                                60%
+                            </div>
+                            <h2>ANGULAR</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>UNREAL ENGINE4</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="60">
+                                60%
+                            </div>
+                            <h2>PHP</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion de trabajos-->
+
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+            <a href="javascript:void(0)" class="" id="marketing" onclick="verCategoria('marketing')">Marketing</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item programacion">
+                <img src="https://prosandoval.com/wp-content/uploads/apollo13_images/Diseno-pagina-web-para-revista-deportiva-6ybfugtt4365j6186ap6x0nrp55sgzy4zq.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Titulo del trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Marketing">
+                <img src="https://desarrollositiosweb.com/wp-content/uploads/2020/09/Desarrollo-Web-Guayaquil-Portafolio-resp.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Titulo del trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Animaciones">
+                <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2022/03/frontend-vs-backend-1024x512.png"
+                    alt="">
+                <div class="info">
+                    <h3>Titulo del trabajo</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion de contacto-->
+
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fil">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email</h3>
+                        <p>oscardejesus246@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Telefono</h3>
+                        <p>+58.4129939771</p>
+                    </div>
+                    <div class="info">
+                        <h3>GitHub</h3>
+                        <p>oscardejesus246@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Venezuela</p>
+                    </div>                   
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje">
+                    </textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Creado por Oscar Alvarado - 2023</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
