@@ -372,7 +372,7 @@ body{
     background: linear-gradient(to right, #ff5b00, #ff9900);
 }
 footer{
-    background-color: #000;
+    background: linear-gradient(to right, #000c76, #007be5);
     color: #fff;
     padding: 7px 0;
     font-size: 14px;
