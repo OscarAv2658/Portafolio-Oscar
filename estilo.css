@@ -201,6 +201,7 @@ body{
     padding: 60px 0;
     position: relative;
     top: -100px;
+    overflow: auto;
 }
 .habilidades h2{
     text-align: center;
@@ -216,9 +217,11 @@ body{
 .score{
     padding: 10px;
     margin: auto 0;
+    text-align: center;
 }
 .score .box{
     width: 100%;
+    
 }
 .score .box h2{
     display: block;
@@ -392,8 +395,8 @@ footer{
         background-color: rgba(0,0,0,.9);
         top: 0;
         left: 0;
-        height: 100vh;
-        width: 100vh;
+        height: 100%;
+        width: 100%;
         position: absolute;
         padding: 10px;
         display: flex;
@@ -411,7 +414,7 @@ footer{
         display: block;
     }
     .incio{
-        height: auto;
+        height: 100%;
     }
     .inicio .fila{
         display: block;
@@ -424,7 +427,7 @@ footer{
         margin-top: 20px;
     }
     .inicio .fila .col .contenedor-img{
-        width: 50%;
+        width: 100%;
         margin-top: 30px;
     }
     .servicios{
@@ -436,7 +439,7 @@ footer{
         margin-bottom: 0;
     }
     .servicios .fila .col{
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
     .servicios .fila .col .card{
@@ -458,6 +461,6 @@ footer{
     .contacto .fila .col .info{
         float: left;
         font-size: 12px;
-        width: 25%;
+        width: 100%;
     }
 }
